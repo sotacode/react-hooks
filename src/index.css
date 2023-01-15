@@ -1,0 +1,33 @@
+body{
+  padding: 20px;
+}
+
+button {
+  margin: 10px;
+}
+
+h1{
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+}
+
+.inputForm{
+  width: 500px !important;
+}
+
+.hookCard{
+  width: 90%;
+  border: 2px solid rgb(129, 62, 255);
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgb(234, 222, 255);
+  box-shadow: 10px 5px 5px rgb(138, 138, 138);
+  margin: 0px auto;
+  margin-bottom: 30px;
+}
