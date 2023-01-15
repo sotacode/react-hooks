@@ -11,19 +11,6 @@ export const SimpleFormWithCustomHook = () => {
 
     const {username, email, password} = formState
 
-    /* useEffect(() => {
-        console.log("useEffect First Time")
-    }, [])
-
-    useEffect(() => {
-        console.log("Formulario cambio")
-    }, [formState])
-
-    useEffect(() => {
-        console.log("email cambio")
-    }, [email]) */
-
-
 
     return (
         <div className="hookCard">

@@ -31,3 +31,28 @@ h2{
   margin: 0px auto;
   margin-bottom: 30px;
 }
+
+
+.displayAgent{
+  width: 100px;
+  margin: 2px 2px 0px 2px;
+  background-color: rgb(244, 189, 255);
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid green;
+}
+.displayAgent p{
+  color: white;
+}
+
+.agentImg{
+  width: 100%;
+}
+
+.gridAgents{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+

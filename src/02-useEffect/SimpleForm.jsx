@@ -21,15 +21,15 @@ export const SimpleForm = () => {
 
 
     useEffect(()=>{
-        console.log("useEffect First Time")
+        /* console.log("useEffect First Render") */
     },[])
 
     useEffect(()=>{
-        console.log("Formulario cambio")
+        /* console.log("form change") */
     },[formState])
 
     useEffect(()=>{
-        console.log("email cambio")
+        /* console.log("email change") */
     },[email])
 
 
