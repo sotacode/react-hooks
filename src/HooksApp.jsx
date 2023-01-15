@@ -6,6 +6,10 @@ import { SimpleFormWithCustomHook } from './02-useEffect/SimpleFormWithCustomHoo
 import { MultipleCustomHooks } from './03-examples/MultipleCustomHooks'
 import { FocusScreen } from './04-useRef/FocusScreen'
 import { Layout } from './05-useLayoutEffect/Layout'
+import { CallBackHook } from './06-memos/CallBackHook'
+import { MemoHook } from './06-memos/MemoHook'
+import { Memorize } from './06-memos/Memorize'
+import { Parent } from './07-practice-memo/Parent'
 
 export const HooksApp = () => {
   return (
@@ -18,6 +22,10 @@ export const HooksApp = () => {
       <MultipleCustomHooks/>      {/* useFetch */}
       <FocusScreen/>              {/* useRef */}
       <Layout/>                   {/* useLayoutRef */}
+      <Memorize/>                 {/* memo funtion */}
+      <MemoHook/>                 {/* useMem */}
+      <CallBackHook/>             {/* useCallBack */}
+      {/* <Parent/> */}
     </div>
   )
 }

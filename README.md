@@ -31,3 +31,13 @@ It is generally used to reference html
 It is identical to "useEffect" but in this case it is fired once the rendering is complete.
 
 
+## memo function - React function for components
+The "memo" function allows us to memorize the state of a component, so that the renderings of a parent component do not make the child component re-render if it is not necessary given its logic. This is especially useful and is recommended to be implemented only when components have very expensive logic that may be affecting performance when rendering or processing data.
+
+## useMem - React Hook
+the "useMem" hook has the same goal as the "memo" function. The difference is that now it does not memorize a component, we want to memorize a value that is obtained by executing some logic inside the component that, if it is the same, does not recalculate its value because it was already calculated before.
+
+## useCallback - React Hook
+the "useCallBack" hook is another hook used to memorize, but in this case it memorizes functions so that when a component is re-rendered, they do not change their memory address, influencing the child components that receive said function as property. It is generally used together with child components that receive this function as a property, and for its proper functioning, the child component must be accompanied by the "memo" function.
+
+Another use case is when a hook such as "useEffect" is used and within it x function is called, which is also a dependency of "useEffect" itself, so without the "useCallBack" this would be running in an infinite loop.
