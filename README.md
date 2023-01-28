@@ -42,3 +42,8 @@ the "useMem" hook has the same goal as the "memo" function. The difference is th
 the "useCallBack" hook is another hook used to memorize, but in this case it memorizes functions so that when a component is re-rendered, they do not change their memory address, influencing the child components that receive said function as property. It is generally used together with child components that receive this function as a property, and for its proper functioning, the child component must be accompanied by the "memo" function.
 
 Another use case is when a hook such as "useEffect" is used and within it x function is called, which is also a dependency of "useEffect" itself, so without the "useCallBack" this would be running in an infinite loop.
+
+
+## useReducer - React Hook
+The "useReducer" hook is similar to "useState", but in this case it is used when the state changes in many ways and you want to centralize this in a function where the logic is separated by actions.
+In this case, we implemented 3 events: "add to do", mark as "done to do" and "remove to do" within "useReducer"
