@@ -12,7 +12,7 @@ export const NavBar = () => {
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark rounded-3" >
                 {/* <Link className="navbar-brand" to="/">Home</Link> */}
 
-                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                <div id="navbarSupportedContent">
                     <ul className="navbar-nav mr-auto">
                         <NavLink
                             className={ ({isActive}) => `nav-link ${ isActive ? 'active' : ''}` }
