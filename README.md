@@ -47,3 +47,8 @@ Another use case is when a hook such as "useEffect" is used and within it x func
 ## useReducer - React Hook
 The "useReducer" hook is similar to "useState", but in this case it is used when the state changes in many ways and you want to centralize this in a function where the logic is separated by actions.
 In this case, we implemented 3 events: "add to do", mark as "done to do" and "remove to do" within "useReducer"
+
+
+## useContext - React Hook
+The "useContext" hook is used to save the state or actions that are required at different levels of a component tree, thus avoiding having to pass all the arguments through the props.
+In this example, we implement the router to see the case of different pages.

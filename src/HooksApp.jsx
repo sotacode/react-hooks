@@ -12,6 +12,8 @@ import { Memorize } from './06-memos/Memorize'
 import { Parent } from './07-practice-memo/Parent'
 //import './08-useReducer/intro-reducer'
 import { TodoApp } from './08-useReducer/TodoApp'
+import { MainApp } from './09-useContext/MainApp'
+
 
 export const HooksApp = () => {
   return (
@@ -29,6 +31,7 @@ export const HooksApp = () => {
       <CallBackHook/>             {/* useCallBack */}
       {/* <Parent/> */}
       <TodoApp/>                  {/* useReducer */}
+      <MainApp/>                  {/* useContext */}
     </div>
   )
 }
