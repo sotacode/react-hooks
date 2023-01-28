@@ -10,7 +10,7 @@ export const Memorize = () => {
 
     return (
         <div className="hookCard">
-            <h2>useMem - React Hook</h2>
+            <h2>memo - React function</h2>
             <hr />
             <p>The "memo" function allows us to memorize the state of a component, so that the renderings of a parent component do not make the child component re-render if it is not necessary given its logic. This is especially useful and is recommended to be implemented only when components have very expensive logic that may be affecting performance when rendering or processing data.</p>
             <h5>Example with Counter</h5>
